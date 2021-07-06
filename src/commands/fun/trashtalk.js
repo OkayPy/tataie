@@ -1,4 +1,7 @@
-const usage = require("../../../utils/usage.js"); //betters help-messages
+const { RichEmbed } = require("discord.js");
+const errors = require("../../../utils/errors"); //better errors
+const usage = require("../../../utils/usage"); //better helpmessages 
+const second = require("../../../utils/othererrors.js"); //better errors
 const { prefix } = require("../../loaders/reader") //get prefix from botconfig
 
 module.exports = {
