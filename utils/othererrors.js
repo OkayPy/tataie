@@ -20,7 +20,7 @@ function findError(id) {
     if (fix != undefined) {
         return fix;
     } else {
-        return "Error: That help message is not valid. More information can be found by typing $helpmsg 5621"
+        return "Error: Mesaju nu e valut. Incearca sa scrii !helpmsg 5621"
     }
 }
 module.exports = {

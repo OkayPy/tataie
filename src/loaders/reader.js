@@ -40,7 +40,7 @@ const defaultConfig = {
     "ownerid": null,
     "private": false,
     "whitelist": false,
-    "status": "Moderating servers!",
+    "status": "crackeri!",
     "prefix": "!",
     "privateID": "",
     "red": "#b70000",
