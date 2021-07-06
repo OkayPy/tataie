@@ -3,10 +3,10 @@ const { prefix } = require("../../loaders/reader") //get prefix from botconfig
 
 module.exports = {
     config: {
-        name: "meme",
-        aliases: ["memes", "mem"],
-        usage: "$meme",
-        description: "niste memeuri de cacat",
+        name: "trashtalk",
+        aliases: ["trashtalk", "trash"],
+        usage: "$trashtalk",
+        description: "trashtalk bagamias pula",
         permissions: "none"
     },
     run: async (bot, message, args) => {
