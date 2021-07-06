@@ -8,15 +8,8 @@ module.exports = {
         permissions: "none"
     },
     run: async (bot, message, args) => {
-        let msg = await message.channel.send(". . . Caut . . .");
-
-        get("https://cdn.discordapp.com/attachments/861873896646508564/861873905907269663/unknown.png").then(async res => { 
-            await message.channel.send({ 
-                files: [{
-                    attachment: res.body.file,
-                    name: "orfani.png"
-                }]
-            }).then(msg.delete()); 
-        });
+        
+        message.channel.send("https://cdn.discordapp.com/attachments/861873896646508564/861873905907269663/unknown.png")
+        message.channel.send("https://cdn.discordapp.com/attachments/861873896646508564/861874647641620490/unknown.png")
     }
 }
