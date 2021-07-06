@@ -11,7 +11,7 @@ module.exports = {
     },
     run: async (bot, message, args) => {
         let reddit = [
-            "dankmemes"
+            "Memes"
         ]
         // let subreddit = reddit[Math.floor(Math.random() * reddit.length - 1)];
         let subreddit = reddit[0];
