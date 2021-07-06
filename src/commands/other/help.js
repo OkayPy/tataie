@@ -22,7 +22,7 @@ module.exports = {
                 .setThumbnail(bot.user.displayAvatarURL) //bot avatar
                 .setTimestamp()
                 .setDescription(`prefixu e ${prefix} \n Ca sa vezi chestii despre o comanda scrie $help <comanda>  \n Comenzile functioneaza numai in server, nu in dmuri. \n Comenzile tale: `)
-                .addField(`Comenzi:`, "``8ball`` ``cat`` ``dog`` ``meme`` ``addrole`` ``ban`` ``kick`` ``mute`` ``purge`` ``removerole`` ``unmute`` ``warn`` ``botinfo`` ``helpmsg`` ``help`` ``ping`` ``serverinfo`` ``urban``");
+                .addField(`Comenzi:`, "``8ball`` ``cat`` ``dog`` ``meme`` ``addrole`` ``ban`` ``kick`` ``mute`` ``purge`` ``removerole`` ``unmute`` ``warn`` ``botinfo`` ``helpmsg`` ``help`` ``ping`` ``serverinfo`` ``urban`` ``orfani`` ");
             message.author.send(Sembed);
         }
     } 
