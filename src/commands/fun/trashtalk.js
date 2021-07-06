@@ -14,10 +14,8 @@ module.exports = {
     },
     run: async (bot, message, args) => {
     
-        for (let i = 0; i < cars.length; i++) {
-            message.channel.send("fututi rasa matii cosmic de bot prost easy sotron ");
-            message.author.send("de ce esti autist");
-          }
+        message.channel.send('bagamias pula in tactu ala ciung')
+        message.channel.send('ca sa iti numar membrii familiei pe degete trebuie sa imi tai 9 degete')
 
 
     }
